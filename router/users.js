@@ -1,19 +1,19 @@
 const express = require('express')
 const router = express.Router()
 
-let users = [
-    {
-        id: 1,
-        name: "Dika",
-        email: "dika@gmail.com"
-    },
-    {
-        id: 2,
-        name: "Andika",
-        email: "andika@gmail.com"
-    },
+// let users = [
+//     {
+//         id: 1,
+//         name: "Dika",
+//         email: "dika@gmail.com"
+//     },
+//     {
+//         id: 2,
+//         name: "Andika",
+//         email: "andika@gmail.com"
+//     },
 
-]
+// ]
 
 router.route('/users')
     .get((req, res) => {
